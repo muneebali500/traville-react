@@ -1,0 +1,55 @@
+nav {
+  position: absolute;
+  height: 10vh;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 7vw;
+  box-shadow: 1rem 1rem 2rem var(--box-shadow);
+  //border: 1px solid;
+}
+
+.Logo {
+  font-size: 1.8rem;
+  font-style: italic;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.NavItems {
+  .NavLink {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 5vw;
+    padding-bottom: 1rem;
+    position: relative;
+    transition: transform 0.3s linear;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40%;
+      height: 3px;
+      background-color: var(--clr-primary);
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(0.5);
+    }
+  }
+}
