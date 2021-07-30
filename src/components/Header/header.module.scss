@@ -28,6 +28,10 @@ header .Container {
     font-size: 2rem;
     color: #fff;
     margin: 1.5rem 0;
+
+    @media (max-width: 31.25em) {
+      font-size: 1.3rem;
+    }
   }
 
   a {
