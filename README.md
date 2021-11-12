@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Traville - Reactjs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This is a Traville project Designed and Developed by me to practice my React UI skills. The project is created using functional components and react hooks.  
 
-In the project directory, you can run:
+[Link to Live Project](https://traville.netlify.app/)
 
-### `npm start`
+![traville landing page](/public/images/traville.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+### Languages, Frameworks, Libraries & Programs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [JSX](https://reactjs.org/docs/introducing-jsx.html) - build up layout and content of the application.
+- [CSS Modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) - for adding custom styling.
+- [React.js](https://reactjs.org/) - to add functionalities throughout the application.
+  - Hooks used:
+    - useState
+- [Visual Studio Code](https://code.visualstudio.com/) - the code editor being used to build the project.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used heavily for debugging during development process.
+- [Git](https://git-scm.com/) - the Git feature in VS Code was used for version control and push to github.
+- [Github](https://github.com/) - Github is used to store project's code remotely.
 
-### `npm run build`
+## Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Development
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project was developed using VS Code editor and its integrated version control feature to commit gits, which are then pushed to GitHub in order to store the codes remotely.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Netlify
 
-### `npm run eject`
+The project was deployed to Netlify
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Forking the repository
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Log in to GitHub and navigate to this project's repository: [traville-react](https://github.com/muneebali500/traville-react)
+2. Just above the navigation menu of the repository (above the Settings button) locate the Fork button
+3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
