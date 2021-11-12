@@ -16,8 +16,6 @@ This is a Traville project Designed and Developed by me to practice my React UI 
 - [JSX](https://reactjs.org/docs/introducing-jsx.html) - build up layout and content of the application.
 - [CSS Modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) - for adding custom styling.
 - [React.js](https://reactjs.org/) - to add functionalities throughout the application.
-  - Hooks used:
-    - useState
 - [Visual Studio Code](https://code.visualstudio.com/) - the code editor being used to build the project.
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used heavily for debugging during development process.
 - [Git](https://git-scm.com/) - the Git feature in VS Code was used for version control and push to github.
