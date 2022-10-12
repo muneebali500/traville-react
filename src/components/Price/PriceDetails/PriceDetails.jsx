@@ -1,3 +1,5 @@
+import React from "react";
+
 import styles from "./priceDetails.module.scss";
 
 function PriceDetails(props) {

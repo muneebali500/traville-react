@@ -1,0 +1,10 @@
+.SectionTitle {
+  font-size: 4rem;
+  text-align: center;
+  color: var(--clr-primary-light);
+}
+@media (max-width: 31.25em) {
+  .SectionTitle {
+    font-size: 2.8rem;
+  }
+}/*# sourceMappingURL=sectionTitle.module.css.map */

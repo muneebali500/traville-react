@@ -1,0 +1,35 @@
+.Contact {
+  padding: 5vw;
+}
+
+.Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100rem;
+  max-width: 95%;
+  margin: 4rem auto 0;
+}
+.Wrapper .CommercialContacts,
+.Wrapper .SocialContacts {
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.7);
+  width: 40rem;
+}
+.Wrapper .CommercialContacts > div,
+.Wrapper .SocialContacts > div {
+  margin: 1.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1), -0.5rem -0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+.Wrapper .CommercialContacts > div span,
+.Wrapper .SocialContacts > div span {
+  margin-left: 2rem;
+}
+.Wrapper .SocialContacts > div {
+  cursor: pointer;
+  transition: box-shadow 0.3s linear;
+}
+.Wrapper .SocialContacts > div:active {
+  box-shadow: none;
+}/*# sourceMappingURL=contact.module.css.map */

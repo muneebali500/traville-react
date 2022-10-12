@@ -1,0 +1,13 @@
+.SectionPrice {
+  padding: 10rem 0;
+}
+
+.PriceContainer {
+  width: 110rem;
+  max-width: 95%;
+  margin: auto;
+  margin-top: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}/*# sourceMappingURL=price.module.css.map */

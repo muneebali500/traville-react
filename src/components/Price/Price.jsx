@@ -1,3 +1,5 @@
+import React from "react";
+
 import styles from "./price.module.scss";
 import PriceDetails from "./PriceDetails/PriceDetails";
 import SectionTitle from "../SectionTitle/SectionTitle";

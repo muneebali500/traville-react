@@ -1,0 +1,9 @@
+footer {
+  padding: 1rem;
+  background-color: var(--clr-primary);
+}
+footer .Copyright {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}/*# sourceMappingURL=footer.module.css.map */

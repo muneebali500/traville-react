@@ -1,0 +1,74 @@
+.Price {
+  border: 3px solid var(--clr-price1);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  width: 30rem;
+  position: relative;
+  margin: 2rem;
+}
+.Price:nth-child(2) {
+  border: 3px solid var(--clr-price2);
+}
+.Price:nth-child(2) .Amount {
+  color: var(--clr-price2);
+}
+.Price:nth-child(2) .Policy {
+  background-color: var(--clr-price2);
+}
+.Price:nth-child(2) .Order {
+  background-color: var(--clr-price2);
+}
+.Price:nth-child(3) {
+  border: 3px solid var(--clr-price3);
+}
+.Price:nth-child(3) .Amount {
+  color: var(--clr-price3);
+}
+.Price:nth-child(3) .Policy {
+  background-color: var(--clr-price3);
+}
+.Price:nth-child(3) .Order {
+  background-color: var(--clr-price3);
+}
+.Price .Amount {
+  font-size: 5rem;
+  color: var(--clr-price1);
+}
+.Price .Policy {
+  font-size: 2.3rem;
+  background-color: var(--clr-price1);
+  padding: 1rem;
+  transform: skewY(-2deg);
+  margin: 1rem 0 1.5rem 0;
+  color: #fff;
+}
+.Price .Details span {
+  display: block;
+  font-size: 1.4rem;
+  padding: 1rem;
+  box-shadow: var(--box-shadow);
+  margin: 0.5rem 0;
+}
+.Price .Order {
+  position: absolute;
+  bottom: -3rem;
+  right: -3rem;
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: var(--clr-price1);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+.Price .Order:hover {
+  transform: scale(1.1);
+}
+.Price .Order:active {
+  transform: scale(0.5);
+}/*# sourceMappingURL=priceDetails.module.css.map */
