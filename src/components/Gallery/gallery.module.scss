@@ -1,6 +1,10 @@
 .Gallery {
   padding: 10rem 0;
   background-color: rgba(0, 0, 0, 0.03);
+
+  @media (max-width: 40em) {
+    padding: 3rem 0;
+  }
 }
 
 .GalleryGrid {
@@ -16,6 +20,10 @@
   border: 1px solid var(--clr-primary);
   border-radius: 3px;
   margin: 6rem auto 0;
+
+  @media (max-width: 40em) {
+    margin: 3rem auto 0;
+  }
 
   figure {
     grid-column: 1 / 3;

@@ -5,7 +5,9 @@ import styles from "./footer.module.scss";
 function Footer() {
   return (
     <footer>
-      <p className={styles.Copyright}>All the © are reserved by Traville' 🙂</p>
+      <p className={styles.Copyright}>
+        Designed and Developed by Muneeb Ali 🙂
+      </p>
     </footer>
   );
 }

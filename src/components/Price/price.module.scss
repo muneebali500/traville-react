@@ -1,12 +1,16 @@
 .SectionPrice {
   padding: 10rem 0;
+
+  @media (max-width: 40em) {
+    padding: 3rem 0;
+  }
 }
 
 .PriceContainer {
   width: 110rem;
   max-width: 95%;
   margin: auto;
-  margin-top: 6rem;
+  margin-top: 6vmin;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

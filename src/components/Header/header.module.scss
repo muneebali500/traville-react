@@ -5,18 +5,44 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+  position: relative;
+
+  @media (max-width: 59em) {
+    min-height: 80rem;
+  }
+
+  @media (max-width: 40em) {
+    min-height: 45rem;
+  }
+
+  @media (max-width: 27.5em) {
+    min-height: 38rem;
+  }
 }
 
 header .Container {
   position: absolute;
-  top: 35%;
+  top: 60%;
   left: 7vw;
-  width: 55rem;
-  max-width: 90%;
+  transform: translateY(-60%);
+  width: 65rem;
+
+  @media (max-width: 59em) {
+    width: 80%;
+  }
+
+  @media (max-width: 40em) {
+    left: 4vw;
+  }
 
   h1 {
     font-size: 6vmin;
     color: #fff;
+    line-height: 1.3;
+
+    // @media (max-width: 40em) {
+    //   font-size: 4vw;
+    // }
 
     span {
       border-bottom: 1px solid #fff;
@@ -25,9 +51,10 @@ header .Container {
   }
 
   p {
-    font-size: 2rem;
+    font-size: 3vmin;
     color: #fff;
     margin: 1.5rem 0;
+    line-height: 1.3;
 
     @media (max-width: 31.25em) {
       font-size: 1.3rem;
@@ -38,7 +65,7 @@ header .Container {
     display: inline-block;
     background-color: var(--clr-primary);
     border-radius: 3px;
-    font-size: 2rem;
+    font-size: 3.2vmin;
     padding: 1rem 1.5rem;
     color: #fff;
     margin-top: 1rem;

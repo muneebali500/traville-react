@@ -1,18 +1,24 @@
 nav {
   position: absolute;
-  height: 10vh;
+  height: 10rem;
   width: 100%;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 0 7vw;
   box-shadow: 1rem 1rem 2rem var(--box-shadow);
-  //border: 1px solid;
+  z-index: 100;
+  // border: 2px solid;
+
+  @media (max-width: 40em) {
+    padding: 0 5vw;
+    height: 7rem;
+  }
 }
 
 .Logo {
-  font-size: 1.8rem;
+  font-size: 3.2vmin;
   font-style: italic;
   color: #fff;
   padding-bottom: 1rem;
@@ -23,7 +29,7 @@ nav {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.8vmin;
     margin-left: 5vw;
     padding-bottom: 1rem;
     position: relative;
