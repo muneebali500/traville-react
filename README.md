@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This is a Traville project Designed and Developed by me to practice my React UI skills. The project is created using functional components and react hooks.  
+This is a Traville project Designed and Developed by me to practice my React UI skills. The project is created using functional components and react hooks. The project is fully responsive and tested on different devices  
 
-[Link to Live Project](https://traville.netlify.app/)
+[Link to Live Project](https://traville.vercel.app/)
 
 ![traville landing page](/public/images/traville.png)
 
@@ -27,9 +27,9 @@ This is a Traville project Designed and Developed by me to practice my React UI 
 
 The project was developed using VS Code editor and its integrated version control feature to commit gits, which are then pushed to GitHub in order to store the codes remotely.
 
-#### Netlify
+#### Vercel
 
-The project was deployed to Netlify
+The project was deployed to [Vercel](https://vercel.com)
 
 #### Forking the repository
 
