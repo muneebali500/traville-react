@@ -4,7 +4,7 @@ import styles from "./nav.module.scss";
 
 function Nav() {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <div className={styles.Logo}>
         <h3>Traville</h3>
       </div>
